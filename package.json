@@ -1,0 +1,27 @@
+{
+  "name": "sass-template",
+  "version": "1.0.0",
+  "description": "A site using sass",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run dev",
+    "build-css": "node-sass --source-map-embed true --include-path scss sass/main.scss > css/main.css",
+    "minify-css": "cleancss css/main.css -o css/main.min.css",
+    "dev": "nodemon -e scss -x \"npm run build-css & npm run minify-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "SASS"
+  ],
+  "author": "Santiago Pintus",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "clean-css-cli": "^5.5.2",
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}

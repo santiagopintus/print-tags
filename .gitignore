@@ -1,0 +1,9 @@
+#SASS
+sass
+
+#Environmental
+.vscode
+
+#Of course, modules
+node_modules
+package-lock.json
