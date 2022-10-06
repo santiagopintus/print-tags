@@ -1,0 +1,15 @@
+//----- IMPORT GLOBAL STYLES (order matters) ----//
+
+//Variables first of all
+@import 'globals/vars';
+//Mixins go second
+@import 'globals/mixins';
+@import 'globals/global';
+@import 'globals/utils';
+@import 'globals/icons';
+
+//----- IMPORT LAYOUT STYLES (Specific styles for components) ----//
+@import "layout/header";
+@import "layout/page";
+@import "layout/tags";
+@import "layout/print";

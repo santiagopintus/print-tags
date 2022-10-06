@@ -1,7 +1,7 @@
 {
-  "name": "sass-template",
+  "name": "print-tags",
   "version": "1.0.0",
-  "description": "A site using sass",
+  "description": "Simple layout for printing tags",
   "main": "index.js",
   "scripts": {
     "start": "npm run dev",
@@ -11,10 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/santiagopintus/print-tags"
   },
   "keywords": [
-    "SASS"
+    "SASS",
+    "PRINTING"
   ],
   "author": "Santiago Pintus",
   "license": "ISC",

@@ -1,0 +1,10 @@
+.page {
+  .tag {
+    font-size: $tagFs;
+    resize: none;
+    border: $tagBorder;
+    font-family: $tagFont;
+    padding: .5rem;
+    @include flex-center;
+  }
+}

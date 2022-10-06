@@ -1,0 +1,37 @@
+.header-container {
+  background-color: $primary;
+  padding: 1rem 0;
+
+  .header-config {
+    @include flex-between;
+
+    .header-option,
+    .header-option .options-container {
+      @include flex-center;
+      gap: 2.4rem;
+    }
+
+    .option {
+      cursor: pointer;
+      background-color: $white;
+      transition: $transitionAll;
+      padding: 0.5rem;
+      border-radius: $borderRadius;
+      &:hover {
+        filter: $hoverFilter;
+      }
+
+      &.print-btn-container {
+        padding: 1rem;
+        i {
+          width: 32px;
+        }
+      }
+    }
+
+    input {
+      border: none;
+      padding: 0.5rem;
+    }
+  }
+}
